@@ -3,6 +3,8 @@
     --clr-dark: black;
     --h2-dark: black;
     --h2-light: yellow;
+    --h3-dark: black;
+    --h3-light: yellow;
   
     --foreground: var(--clr-dark);
     --background: var(--clr-light);
@@ -12,7 +14,9 @@
 
     --foreh2: var(--h2-dark);
     --backh2: var(--h2-light);
-    
+
+    --foreh3: var(--h3-dark);
+    --backh3: var(--h3-light);
     
 }
   
@@ -28,6 +32,9 @@
 
     --foreh2: var(--h2-light);
     --backh2: var(--h2-dark);
+
+    --foreh3: var(--h3-light);
+    --backh3: var(--h3-dark);
 }
   
 body {
@@ -38,6 +45,12 @@ body {
 h2 {
     color: var(--foreh2);
 }
+
+h3 {
+    color: var(--foreh3); 
+} 
+
+
 
 .jumbotron {
     margin: 20px;
@@ -111,3 +124,12 @@ h2 {
       margin-top: 25px;
   }
  
+  .aboutcontainer{
+      margin: 50px;
+  }
+  .aboutme {
+      margin: 25px;
+      font-size: ;
+      
+
+  }
