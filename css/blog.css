@@ -1,0 +1,113 @@
+:root {
+    --clr-light: white;
+    --clr-dark: black;
+    --h2-dark: black;
+    --h2-light: yellow;
+  
+    --foreground: var(--clr-dark);
+    --background: var(--clr-light);
+
+    --forecolor: var(--clr-dark);
+    --backcolor: var(--clr-light);
+
+    --foreh2: var(--h2-dark);
+    --backh2: var(--h2-light);
+    
+    
+}
+  
+.darkmode {
+    --clr-light: white;
+    --clr-dark: black;
+  
+    --foreground: var(--clr-light);
+    --background: var(--clr-dark);
+    
+    --forecolor: var(--clr-light);
+    --backcolor: var(--clr-dark);
+
+    --foreh2: var(--h2-light);
+    --backh2: var(--h2-dark);
+}
+  
+body {
+    background: var(--background);
+    color: var(--forecolor);
+}
+
+h2 {
+    color: var(--foreh2);
+}
+
+.jumbotron {
+    margin: 20px;
+    height: 400px;
+    background-image: url("/img/top-image1.jpg");
+    background-size: cover;
+    
+}
+.search-icon {
+    font-size: 30px
+}
+.jumbotron .display-4 {
+    color: white;
+    padding-top: 80px;
+    position: relative;
+    transform: translateY(50%);
+    font-size: 45px;
+}
+
+.jumbotron .display-3 {
+    font-size: 40px;
+    color: white;
+    position: relative;
+    transform: translateY(90%);
+    padding-top: 30px;
+}    
+    
+
+.nav-scroller {
+    padding: 0px;
+    
+}
+
+.nav .link {
+    color: var(--forecolor);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: blue;
+}
+
+.blog-post .img1 {
+    padding-right: 10px;
+}
+
+.page-break .line {
+    content: "";
+    height: .5px;
+    margin: 20px;
+    padding: 1px;
+}
+.blog-pagination {
+    margin: 0px 10px;
+}
+.blog-pagination a{
+    padding: 5px;
+}
+.footer {
+    padding: 40px;
+    color: #999;
+    text-align: center;
+    background-color: Le;
+    border-top: .05rem solid #e5e5e5;
+  }
+  .footer p:last-child {
+    margin-bottom: 0;
+  }
+  .loadmore {
+      margin-top: 25px;
+  }
+ 
