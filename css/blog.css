@@ -1,10 +1,15 @@
 :root {
-    --clr-light: white;
+    --clr-light: #e4e3e5;
     --clr-dark: black;
     --h2-dark: black;
     --h2-light: yellow;
     --h3-dark: black;
     --h3-light: yellow;
+    --main-dark: black;
+    --main-light: white;
+    --grad-light: #73121e;
+    --grad-dark: black;
+
   
     --foreground: var(--clr-dark);
     --background: var(--clr-light);
@@ -17,13 +22,15 @@
 
     --foreh3: var(--h3-dark);
     --backh3: var(--h3-light);
-    
+
+    --mainfor: var(--main-dark);
+    --mainback: var(--main-light);
+
+    --gradfor: var(--grad-dark);
+    --gradback: var(--grad-light);
 }
   
 .darkmode {
-    --clr-light: white;
-    --clr-dark: black;
-  
     --foreground: var(--clr-light);
     --background: var(--clr-dark);
     
@@ -35,11 +42,29 @@
 
     --foreh3: var(--h3-light);
     --backh3: var(--h3-dark);
+
+    --mainfor: var(--main-light);
+    --mainback: var(--main-dark);
+
+    --gradfor: var(--grad-light);
+    --gradback: var(--grad-dark);
 }
   
 body {
     background: var(--background);
     color: var(--forecolor);
+    /* background-image: linear-gradient(180deg, var(--background), var(--gradback)); */
+    
+}
+
+#mainbody {
+    background: var(--mainback);
+    color: var(--mainfor);
+}
+
+.headerColor {
+    
+    padding: 2px;
 }
 
 h2 {
@@ -50,38 +75,39 @@ h3 {
     color: var(--foreh3); 
 } 
 
-
-
 .jumbotron {
-    margin: 20px;
+    margin-bottom: 20px;
     height: 400px;
     background-image: url("/img/top-image1.jpg");
     background-size: cover;
-    
 }
-.search-icon {
-    font-size: 30px
+
+.search {
+    font-size: 15px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid darkred;
 }
+
 .jumbotron .display-4 {
     color: white;
-    padding-top: 80px;
+    padding-top: 90px;
     position: relative;
-    transform: translateY(50%);
-    font-size: 45px;
+    transform: translateY(55%);
+    font-size: 43px;
 }
 
 .jumbotron .display-3 {
-    font-size: 40px;
+    font-size: 38px;
+    font-weight: 300;
     color: white;
     position: relative;
     transform: translateY(90%);
     padding-top: 30px;
 }    
-    
 
 .nav-scroller {
     padding: 0px;
-    
 }
 
 .nav .link {
@@ -104,32 +130,40 @@ h3 {
     margin: 20px;
     padding: 1px;
 }
+
 .blog-pagination {
     margin: 0px 10px;
 }
+
 .blog-pagination a{
     padding: 5px;
 }
+
 .footer {
     padding: 40px;
     color: #999;
     text-align: center;
     background-color: Le;
     border-top: .05rem solid #e5e5e5;
-  }
-  .footer p:last-child {
-    margin-bottom: 0;
-  }
-  .loadmore {
-      margin-top: 25px;
-  }
- 
-  .aboutcontainer{
-      margin: 50px;
-  }
-  .aboutme {
-      margin: 25px;
-      font-size: ;
-      
+}
 
-  }
+.footer p:last-child {
+    margin-bottom: 0;
+}
+ 
+.loadmore {
+      margin-top: 25px;
+}
+ 
+.aboutcontainer{
+    margin: 50px;
+}
+
+.aboutme {
+    margin: 25px;
+    font-size: ;
+}
+
+.footer {
+    border: none;
+}

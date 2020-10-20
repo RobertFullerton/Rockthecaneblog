@@ -20,49 +20,49 @@
     <div class="container">
         <header class="blog-head py-1">
             <div class="row flex-nowrap justify-content-between align-items-center">
-                <div class="col-5 text-left">
+                <div class="col-4 text-left">
                     <div class="blog-header-logo">
-                        <img src="/img/logo1.png" alt="" height="150px">
+                        <img src="/img/logo2.png" alt="" height="150px">
                     </div>
                 </div>  
-                <div class="col-3 accibility-wrapper">
-                    <div class="text-left">
-                        <p class="text-left p-1">Acciblity Features</p>
-                        <ol class="list-unstyled text-left flex-nowrap">
-                             <li class="d-inline p-1"></li><button id="dark-toggle" class="dark-toggle"> 
-                             <i class="fa fa-adjust fa-lg"></i>contrast</li></button>
-                             <a href=""><li class="d-inline p-1"><i class="fa fa-text-height fa-lg"></i> text sizing</li></a>
+                <div class="col-3 mt-5 accibility-wrapper">
+                    <div class="align-items-center">
+                        <p class="text-left pl-5">Acciblity Features</p>
+                        <ol class="list-unstyled d-flex flex-nowrap">
+                             <li class="d-inline p-1"><button id="dark-toggle" class="btn dark-toggle"><i class="fa fa-adjust fa-lg"></i> 
+                             contrast</li></button>
+                             <li class="d-inline p-1"><button id="dark-toggle" class="btn dark-toggle"><i class="fa fa-text-height fa-lg"></i> 
+                                Text</li></button>
                         </ol>
                     </div> 
                 </div>
-                <div class="col-3 text-center justify-content-between">
-                    <a href=""><i class="fa fa-search"></i> Search</a>
-                    <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
+                <div class="col-4 ">
+                    <form class="form-inline d-flex justify-content-center md-form form-sm mt-0">
+                        <input class="search form-control form-control-sm ml-3 w-75" type="text" placeholder="Search"
+                        aria-label="Search">
+                    </form>
                 </div>
             </div>
         </header> 
-            <div class="nav-scroller py-4 mb-3">
+            <div class="nav-scroller py-4 mb-1">
                 <nav class="nav d-flex justify-content-between">
                     <a class="link p-2" href="index.html">Home</a>
-                    <a class="link p-2" href="aboutme.html">About Me</a>
+                    <a class="link p-2" href="#">About Me</a>
                     <a class="link p-2" href="#">Technology</a>
                     <a class="link p-2" href="#">Resources</a>                    
                     <a class="link p-2" href="#">Printables</a>
-                    
                 </nav>
             </div>
-            
-    </div>
     <!---Blog Container-->
     <div class="mid-wrapper">
-        <main role="main" class="container">
+        <main role="main" class="container" id="mainbody">
             <div class="row">
                 <div class="col-md-8 blog-main">
-                    <h3 class="pb-4 mb-4 border-bottom font-Lobster">About Me
+                    <h3 class="p-4 mb-4 border-bottom font-Lobster">About Me
                     </h3>
                     <div class="blog-post">
                         <div class="img text-center">
-                            <img src="/img/jen.png"  alt="" class="" width="300px" height="500px" />
+                            <img src="/img/jen.png"  alt="" width="300px" height="500px" />
                         </div>
                         <div class="aboutme">
                             <p>I have been an Orientation and Mobility Specialist in the San Diego County area for approximately twelve years. My experience encompasses working with children aging in ranges of three through twenty two. Many of the students I have worked with have multiple disabilities.</p>
@@ -80,8 +80,7 @@
                 <!--Right Column-->
                 <aside class="col-md-4 blog-sidebar">
                     <div class="p-4 mb-3">
-                        <div class="p-4">
-                            <h4 class="text-center bg-info">Hire Me</h4>
+                        <h4 class="text-center bg-info">Hire Me</h4>
                             <p>Need help with[some text]</p>
                                 <form>
                                     <label for="custName">Name:</label>
@@ -99,7 +98,6 @@
                                     </div> 
                                 </form>
                                 <button tpe="sumbit" class="btn btn-primary">Submit</button>
-                        </div>
                     </div>
                     <div class="p-4">
                         <h4 class="text-center bg-info">Other Blog Sites</h4>

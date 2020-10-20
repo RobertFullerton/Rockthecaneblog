@@ -1,39 +1,47 @@
- To do's:
+     To do's:
 
-[ ] Add text sizing button for accability
-    [dateCompleted:]
+[  ] Correct Grammer 
 
-[ ] Hide/show old blogs - 
-    -On front page hide all older blog posts
+[  ] Add text sizing button for accability
+    
+[  ] Hide/show old blogs - 
+    -on front page hide all older blog posts
+    -find a way to stop page reload when load button is pressed
 
-[ ] Find a way to stop page reload when load button is pressed
-
-[ ] Create login modal -
+[  ] Create login modal -
     -login for creater to post blogs
     -learn about Oauth and set up
 
-[ ] create pages
+[  ] Create pages:
     -about me
+        [dateCompleted:10-18-20]
     -technology
-    -Resources
-    -Hire me
+    -resources
+    -printables
 
-[ ] Items to fix 
+[  ] Items to fix 
     -footer for darkmode
-    -imaging size of jen's image
+        [dateCompleted:10-18-20]
     -add color background to about jen section
         [dateCompleted:10-18-20]
     -change "message from jen" section
     -add date before title
         [dateCompleted:10-18-20]
     -remove "by Jen" in title section 
+        [dateCompleted:10-18-20]
     -fix contrast button
+        [dateCompleted:10-19-20]
+    -fix the search button
+        [dateCompleted:10-19-20]
+    -fix brail dot positioning 
+        [dateCompleted:10-19-20]
+    -fix blog layout
 
-[ ] Git and push to master
+[ x ] Git and push to master
 
-[ ] find out how to depoly
+[  ] Find out how to depoly
 
-[ ] look into datebase options 
+[  ] Look into datebase options 
 
 
 
@@ -42,9 +50,11 @@
 
     Future interations of the blog:
 
-[ ] Change color and style
+[  ] Change color and style
 
-[ ] Allow others to post to the site.  
+[  ] Allow others to post to the site. 
+
+[  ] Find Free/low cost text reader for site
 
 
 
