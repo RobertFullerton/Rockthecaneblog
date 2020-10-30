@@ -34,7 +34,10 @@
     -fix brail dot positioning 
         [dateCompleted:10-19-20]
     -fix blog layout
+            -add new font <link> to other pages. 
     -fix font for blog title
+    [dateCompleted:10-27-20]
+
     
 
 [ x ] Git and push to master
