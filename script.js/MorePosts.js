@@ -1,5 +1,5 @@
 const btn = document.querySelector('#hideshowbtn');
-const postDiv = document.querySelector('.showhidediv');
+const postDiv = document.querySelector('.showhide');
 
 btn.addEventListener('click', () => {
     if(postDiv.style.display === 'none') {

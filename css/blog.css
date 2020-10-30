@@ -7,10 +7,10 @@
     --h3-light: yellow;
     --main-dark: black;
     --main-light: white;
-    --grad-light: #73121e;
-    --grad-dark: black;
+    --a-light: green;
+    --a-dark: blue;
+    
 
-  
     --foreground: var(--clr-dark);
     --background: var(--clr-light);
 
@@ -26,8 +26,8 @@
     --mainfor: var(--main-dark);
     --mainback: var(--main-light);
 
-    --gradfor: var(--grad-dark);
-    --gradback: var(--grad-light);
+    --a-linkdark: var(--a-dark);
+    --a-linklight: var(--a-light):
 }
   
 .darkmode {
@@ -46,15 +46,45 @@
     --mainfor: var(--main-light);
     --mainback: var(--main-dark);
 
-    --gradfor: var(--grad-light);
-    --gradback: var(--grad-dark);
+    --a-linklight: var(--a-light);
+    --a-linkdark: var(--a-dark);
+
 }
   
 body {
     background: var(--background);
     color: var(--forecolor);
-    /* background-image: linear-gradient(180deg, var(--background), var(--gradback)); */
-    
+   /* background-image: linear-gradient(180deg, var(--background), var(--gradback)); */
+}
+.contrastBtn {
+    border: none;
+    color: #73121e;
+    background-color: transparent;
+    font-size: 20px;
+}
+li {
+    color: green;
+}
+
+a {
+    color: green; 
+}
+
+.nav-scroller {
+    padding: 0px;
+}
+
+.nav .link {
+    font-size: 20px;
+    color: var(--foreground);
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #73121e;
+}
+#mid-wrapper {
+    box-shadow: 12px, 12px, 26px black;
 }
 
 #mainbody {
@@ -62,13 +92,40 @@ body {
     color: var(--mainfor);
 }
 
-.headerColor {
-    
-    padding: 2px;
+.accessFeature {
+    color: red;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+
+.contrastBtn:hover {
+    color: #73121e;
+    font-size: 20px;
+}
+.textBtn {
+    border: none;
+    color: #73121e;
+    font-size: 20px;
+}
+.textBtn:hover {
+    color: #73121e;
 }
 
 h2 {
     color: var(--foreh2);
+}
+
+.blog-post-meta {
+    font-style: italic;
+}
+
+.blog-post-title {
+    font-family: 'PT Serif Caption', serif;
+}
+.postimg {
+    float: right;
+    
 }
 
 h3 {
@@ -102,23 +159,9 @@ h3 {
     font-weight: 300;
     color: white;
     position: relative;
-    transform: translateY(90%);
-    padding-top: 30px;
+    transform: translateY(10%);
+    padding-top: 1px;
 }    
-
-.nav-scroller {
-    padding: 0px;
-}
-
-.nav .link {
-    color: var(--forecolor);
-    font-size: 20px;
-    text-decoration: none;
-}
-
-.nav a:hover {
-    color: blue;
-}
 
 .blog-post .img1 {
     padding-right: 10px;
@@ -139,12 +182,18 @@ h3 {
     padding: 5px;
 }
 
+.showbtn:hover {
+    background-color: red;
+}
+
+
 .footer {
     padding: 40px;
     color: #999;
     text-align: center;
     background-color: Le;
-    border-top: .05rem solid #e5e5e5;
+    border-top: .05rem solid #e5e5e5; 
+    border: none;
 }
 
 .footer p:last-child {
@@ -161,9 +210,12 @@ h3 {
 
 .aboutme {
     margin: 25px;
-    font-size: ;
 }
 
-.footer {
-    border: none;
+ul.li {
+    color: black
+}
+ul.list {
+    list-style-type: circle;
+    color: black
 }
