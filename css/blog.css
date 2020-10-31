@@ -7,8 +7,9 @@
     --h3-light: yellow;
     --main-dark: black;
     --main-light: white;
-    --a-light: green;
-    --a-dark: blue;
+    --a-light: red;
+    --a-dark: green;
+    
     
 
     --foreground: var(--clr-dark);
@@ -26,8 +27,8 @@
     --mainfor: var(--main-dark);
     --mainback: var(--main-light);
 
-    --a-linkdark: var(--a-dark);
-    --a-linklight: var(--a-light):
+    --linkdark: var(--a-dark);
+    --linklight: var(--a-light):
 }
   
 .darkmode {
@@ -46,8 +47,8 @@
     --mainfor: var(--main-light);
     --mainback: var(--main-dark);
 
-    --a-linklight: var(--a-light);
-    --a-linkdark: var(--a-dark);
+    --linklight: var(--a-light);
+    --linkdark: var(--a-dark);
 
 }
   
@@ -55,6 +56,7 @@ body {
     background: var(--background);
     color: var(--forecolor);
    /* background-image: linear-gradient(180deg, var(--background), var(--gradback)); */
+   font-size: 1rem;
 }
 .contrastBtn {
     border: none;
@@ -62,12 +64,16 @@ body {
     background-color: transparent;
     font-size: 20px;
 }
+.homeHeader {
+    font-family: 'Abril Fatface', cursive;;
+}
 li {
-    color: green;
+    background-color: var(--mainback);
+    color: var(--linklight);
 }
 
 a {
-    color: green; 
+    color: var(--linklight); 
 }
 
 .nav-scroller {
@@ -107,6 +113,7 @@ a {
     border: none;
     color: #73121e;
     font-size: 20px;
+    background: 
 }
 .textBtn:hover {
     color: #73121e;
@@ -218,10 +225,3 @@ h3 {
     margin: 25px;
 }
 
-ul.li {
-    color: black
-}
-ul.list {
-    list-style-type: circle;
-    color: black
-}

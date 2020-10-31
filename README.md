@@ -1,6 +1,6 @@
-     To do's:
+    To Complete For Final Class project:
 
-[  ] Correct Grammer 
+[  ] Correct Grammar 
 
 [ x ] Create pages:
     -about me
@@ -9,17 +9,19 @@
     [dateCompleted:10-23-20]
     -resources
     [dateCompleted:10-25-20]
-    -printables
+    -printable
     [dateCompleted:10-24-20]
 
-[  ] Items to fix 
+[ x ] Items to fix 
     -footer for darkmode
         [dateCompleted:10-18-20]
     -add color background to about jen section
         [dateCompleted:10-18-20]
     -change "message from jen" section
         -change wording 
+            [dateCompleted:10-18-20]
         -change styling of text
+            [dateCompleted:10-18-20]
     -rewrite the about jen section
         -less words
             [dateCompleted:10-25-20]
@@ -35,26 +37,19 @@
         [dateCompleted:10-19-20]
     -fix blog layout
             -add new font <link> to other pages. 
+                [dateCompleted:10-30-20]
     -fix font for blog title
-    [dateCompleted:10-27-20]
-
-    
+        [dateCompleted:10-27-20]
 
 [ x ] Git and push to master
-
-[  ] Find out how to depoly
-
-[  ] Look into datebase options 
+    [dateCompleted:10-18-20]
 
 
 
-
-
-
-    Future interations of the blog:
+    Future iterations of the blog:
 
 [  ] Create login modal -
-    -login for creater to post blogs
+    -login for creator to post blogs
     -learn about Oauth and set up
 
 [  ] Change color and style
@@ -68,4 +63,11 @@
 [  ] Hide/show old blogs - 
     -on front page hide all older blog posts
     -find a way to stop page reload when load button is pressed
-[  ] Add text sizing button for accability
+
+[  ] Add text sizing button
+
+[  ] Add alt and aria-label  tags for screen readers
+
+[  ] Find out how to deploy
+
+[  ] Look into database options 
