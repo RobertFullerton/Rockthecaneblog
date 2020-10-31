@@ -1,6 +1,5 @@
-    To Complete For Final Class project:
+    To Complete: Final Class project:
 
-[  ] Correct Grammar 
 
 [ x ] Create pages:
     -about me
@@ -44,30 +43,33 @@
 [ x ] Git and push to master
     [dateCompleted:10-18-20]
 
+[ x ] Correct Grammar 
 
 
     Future iterations of the blog:
 
 [  ] Create login modal -
-    -login for creator to post blogs
+    -login for jen/creator to post blogs
     -learn about Oauth and set up
+    
+[  ] Look into database options
+    - allows new posts to be added as the first post
 
-[  ] Change color and style
-
-[  ] Allow others to post to the site. 
-
-[  ] Find Free/low cost text reader for site
-
-[  ] Add copyright and disclaimer 
+[  ] Allow others to post to the site.
 
 [  ] Hide/show old blogs - 
     -on front page hide all older blog posts
     -find a way to stop page reload when load button is pressed
 
+[  ] Change color and style
+
+[  ] Find Free/low cost text reader for site
+
+[  ] Add copyright and disclaimer 
+
 [  ] Add text sizing button
 
-[  ] Add alt and aria-label  tags for screen readers
+[  ] Add alt and aria-label tags for screen readers
 
 [  ] Find out how to deploy
 
-[  ] Look into database options 
